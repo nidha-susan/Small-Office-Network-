@@ -77,8 +77,6 @@ Result: Sales PCs cannot reach Management PCs, but Sales-to-Engineering and all 
 | `show ip interface brief` | SVIs are up/up with correct addresses |
 | `show ip dhcp binding` | DHCP leases issued across all VLANs |
 | `show access-lists` | ACL match counters incrementing as expected |
-<img width="1920" height="1017" alt="small office network" src="https://github.com/user-attachments/assets/8dfbd441-8808-4c3b-bc5e-9cd99127c1dc" />
-
 
 ## How to open this project
 
