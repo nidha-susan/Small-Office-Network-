@@ -59,11 +59,12 @@ Addresses .1 through .9 of each subnet are excluded from DHCP and reserved for t
 ### Security — Sales to Management restriction
 
 Extended ACL applied inbound on the Sales SVI:
+```
 access-list 100 deny ip 192.168.10.0 0.0.0.255 192.168.30.0 0.0.0.255
 access-list 100 permit ip any any
 interface vlan 10
 ip access-group 100 in
-
+```
 Result: Sales PCs cannot reach Management PCs, but Sales-to-Engineering and all return traffic still works.
 
 
