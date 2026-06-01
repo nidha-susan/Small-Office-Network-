@@ -24,7 +24,7 @@ This lab simulates a small office with three departments : **Sales**, **Engineer
 | L3-SW | Layer 3 switch — routing, DHCP, ACL enforcement | Cisco 3650-24PS |
 | SW-Sales | Access switch — Sales VLAN | Cisco 2960-24TT |
 | SW-Eng | Access switch — Engineering VLAN | Cisco 2960-24TT |
-| SW-HR | Access switch — Management VLAN | Cisco 2960-24TT |
+| SW-HR | Access switch — HR VLAN | Cisco 2960-24TT |
 | PCs (6) | End hosts — 2 per department | Generic PC |
 
 ---
